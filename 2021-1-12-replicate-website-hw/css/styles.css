@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 1px solid black;
+}
+.container {
+  background-color: aqua;
+}
+
+.container-1 ul {
+  display: flex;
+  width: 1275px;
+  height: 100px;
+  background-color: red;
+  justify-content: space-evenly;
+}
+.container-1 li {
+  width: 20px;
+  height: 20px;
+  background-color: orange;
+  list-style: none;
+}
+.container-1 li:hover {
+  transform: translateX(-100px);
+  width: 80px;
+}
+.container-2 ul {
+  display: flex;
+  width: 1275px;
+  height: 100px;
+  background-color: purple;
+  justify-content: space-evenly;
+}
+.container-2 li {
+  width: 20px;
+  height: 20px;
+  background-color: orange;
+  list-style: none;
+}
+.container-3 {
+  width: 1275px;
+  height: 100px;
+  background-color: blueviolet;
+}
+.img {
+  background: url(../img/Screenshot_2019-10-18-08-09-26.png);
+  height: 400px;
+  width: 1275px;
+  overflow: auto;
+}
+.container-3-card {
+  /* display: flex; */
+}
+img {
+  width: 15px;
+  height: 15px;
+}
+.container-3-card span {
+  width: 0.75px;
+  height: 0.75px;
+  background-color: cornflowerblue;
+  padding: 0.1%;
+}
+.buttons button {
+  width: 5px;
+  height: 5px;
+  background-color: crimson;
+  padding: 1%;
+}
+.img .buttons span {
+  width: 1px;
+  height: 1px;
+  background-color: crimson;
+  padding: 0.5%;
+}
+
+.container-4 {
+  display: flex;
+  width: 1275px;
+  min-height: 400px;
+  background-color: yellow;
+  flex-wrap: wrap;
+}
+.media {
+  width: 250px;
+  height: 250px;
+  background-color: green;
+  margin: 1%;
+  padding: 5%;
+}
